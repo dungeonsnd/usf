@@ -1,2 +1,2 @@
 # wanru
-A mobile cross-platform library.
+A mobile cross-platform framework.
