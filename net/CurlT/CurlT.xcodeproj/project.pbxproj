@@ -13,19 +13,19 @@
 		7B452D711C8F9E68000577F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D6F1C8F9E68000577F0 /* Main.storyboard */; };
 		7B452D731C8F9E68000577F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D721C8F9E68000577F0 /* Assets.xcassets */; };
 		7B452D761C8F9E68000577F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D741C8F9E68000577F0 /* LaunchScreen.storyboard */; };
-		7B452D9E1C8F9FD2000577F0 /* curlbuild.h.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D871C8F9FD2000577F0 /* curlbuild.h.cmake */; };
-		7B452D9F1C8F9FD2000577F0 /* curlbuild.h.dist in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D881C8F9FD2000577F0 /* curlbuild.h.dist */; };
-		7B452DA01C8F9FD2000577F0 /* curlbuild.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D891C8F9FD2000577F0 /* curlbuild.h.in */; };
-		7B452DA11C8F9FD2000577F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D8D1C8F9FD2000577F0 /* Makefile */; };
-		7B452DA21C8F9FD2000577F0 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D8E1C8F9FD2000577F0 /* Makefile.am */; };
-		7B452DA31C8F9FD2000577F0 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D8F1C8F9FD2000577F0 /* Makefile.in */; };
-		7B452DA41C8F9FD2000577F0 /* stamp-h2 in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D921C8F9FD2000577F0 /* stamp-h2 */; };
-		7B452DA51C8F9FD2000577F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D951C8F9FD2000577F0 /* Makefile */; };
-		7B452DA61C8F9FD2000577F0 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D961C8F9FD2000577F0 /* Makefile.am */; };
-		7B452DA71C8F9FD2000577F0 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D971C8F9FD2000577F0 /* Makefile.in */; };
-		7B452DA81C8F9FD2000577F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D981C8F9FD2000577F0 /* README */; };
-		7B452DA91C8F9FD2000577F0 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B452D9A1C8F9FD2000577F0 /* libcurl.a */; };
 		7B452DAE1C8FA12A000577F0 /* USFHttpTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B452DAD1C8FA12A000577F0 /* USFHttpTool.mm */; };
+		7B452DC81C905868000577F0 /* curlbuild.h.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DB41C905868000577F0 /* curlbuild.h.cmake */; };
+		7B452DC91C905868000577F0 /* curlbuild.h.dist in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DB51C905868000577F0 /* curlbuild.h.dist */; };
+		7B452DCA1C905868000577F0 /* curlbuild.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DB61C905868000577F0 /* curlbuild.h.in */; };
+		7B452DCB1C905868000577F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7B452DBA1C905868000577F0 /* Makefile */; };
+		7B452DCC1C905868000577F0 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DBB1C905868000577F0 /* Makefile.am */; };
+		7B452DCD1C905868000577F0 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DBC1C905868000577F0 /* Makefile.in */; };
+		7B452DCE1C905868000577F0 /* stamp-h2 in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DBF1C905868000577F0 /* stamp-h2 */; };
+		7B452DCF1C905868000577F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7B452DC21C905868000577F0 /* Makefile */; };
+		7B452DD01C905868000577F0 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DC31C905868000577F0 /* Makefile.am */; };
+		7B452DD11C905868000577F0 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DC41C905868000577F0 /* Makefile.in */; };
+		7B452DD21C905868000577F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7B452DC51C905868000577F0 /* README */; };
+		7B452DD31C905868000577F0 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B452DC71C905868000577F0 /* libcurl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,29 +39,29 @@
 		7B452D721C8F9E68000577F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B452D751C8F9E68000577F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B452D771C8F9E68000577F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B452D851C8F9FD2000577F0 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
-		7B452D861C8F9FD2000577F0 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
-		7B452D871C8F9FD2000577F0 /* curlbuild.h.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.cmake; sourceTree = "<group>"; };
-		7B452D881C8F9FD2000577F0 /* curlbuild.h.dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.dist; sourceTree = "<group>"; };
-		7B452D891C8F9FD2000577F0 /* curlbuild.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.in; sourceTree = "<group>"; };
-		7B452D8A1C8F9FD2000577F0 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
-		7B452D8B1C8F9FD2000577F0 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
-		7B452D8C1C8F9FD2000577F0 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
-		7B452D8D1C8F9FD2000577F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		7B452D8E1C8F9FD2000577F0 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		7B452D8F1C8F9FD2000577F0 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		7B452D901C8F9FD2000577F0 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
-		7B452D911C8F9FD2000577F0 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
-		7B452D921C8F9FD2000577F0 /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
-		7B452D931C8F9FD2000577F0 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
-		7B452D941C8F9FD2000577F0 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
-		7B452D951C8F9FD2000577F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		7B452D961C8F9FD2000577F0 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
-		7B452D971C8F9FD2000577F0 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
-		7B452D981C8F9FD2000577F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		7B452D9A1C8F9FD2000577F0 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
 		7B452D9D1C8F9FD2000577F0 /* USFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USFHttpTool.h; sourceTree = "<group>"; };
 		7B452DAD1C8FA12A000577F0 /* USFHttpTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = USFHttpTool.mm; sourceTree = "<group>"; };
+		7B452DB21C905868000577F0 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		7B452DB31C905868000577F0 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		7B452DB41C905868000577F0 /* curlbuild.h.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.cmake; sourceTree = "<group>"; };
+		7B452DB51C905868000577F0 /* curlbuild.h.dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.dist; sourceTree = "<group>"; };
+		7B452DB61C905868000577F0 /* curlbuild.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.in; sourceTree = "<group>"; };
+		7B452DB71C905868000577F0 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		7B452DB81C905868000577F0 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		7B452DB91C905868000577F0 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		7B452DBA1C905868000577F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		7B452DBB1C905868000577F0 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7B452DBC1C905868000577F0 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7B452DBD1C905868000577F0 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		7B452DBE1C905868000577F0 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		7B452DBF1C905868000577F0 /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
+		7B452DC01C905868000577F0 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		7B452DC11C905868000577F0 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		7B452DC21C905868000577F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		7B452DC31C905868000577F0 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7B452DC41C905868000577F0 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7B452DC51C905868000577F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		7B452DC71C905868000577F0 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B452DA91C8F9FD2000577F0 /* libcurl.a in Frameworks */,
+				7B452DD31C905868000577F0 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,62 +129,10 @@
 		7B452D811C8F9FD2000577F0 /* private */ = {
 			isa = PBXGroup;
 			children = (
+				7B452DAF1C905868000577F0 /* curl-ios */,
 				7B452DAD1C8FA12A000577F0 /* USFHttpTool.mm */,
-				7B452D821C8F9FD2000577F0 /* curl-ios */,
 			);
 			path = private;
-			sourceTree = "<group>";
-		};
-		7B452D821C8F9FD2000577F0 /* curl-ios */ = {
-			isa = PBXGroup;
-			children = (
-				7B452D831C8F9FD2000577F0 /* include */,
-				7B452D991C8F9FD2000577F0 /* lib */,
-			);
-			path = "curl-ios";
-			sourceTree = "<group>";
-		};
-		7B452D831C8F9FD2000577F0 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				7B452D841C8F9FD2000577F0 /* curl */,
-				7B452D951C8F9FD2000577F0 /* Makefile */,
-				7B452D961C8F9FD2000577F0 /* Makefile.am */,
-				7B452D971C8F9FD2000577F0 /* Makefile.in */,
-				7B452D981C8F9FD2000577F0 /* README */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		7B452D841C8F9FD2000577F0 /* curl */ = {
-			isa = PBXGroup;
-			children = (
-				7B452D851C8F9FD2000577F0 /* curl.h */,
-				7B452D861C8F9FD2000577F0 /* curlbuild.h */,
-				7B452D871C8F9FD2000577F0 /* curlbuild.h.cmake */,
-				7B452D881C8F9FD2000577F0 /* curlbuild.h.dist */,
-				7B452D891C8F9FD2000577F0 /* curlbuild.h.in */,
-				7B452D8A1C8F9FD2000577F0 /* curlrules.h */,
-				7B452D8B1C8F9FD2000577F0 /* curlver.h */,
-				7B452D8C1C8F9FD2000577F0 /* easy.h */,
-				7B452D8D1C8F9FD2000577F0 /* Makefile */,
-				7B452D8E1C8F9FD2000577F0 /* Makefile.am */,
-				7B452D8F1C8F9FD2000577F0 /* Makefile.in */,
-				7B452D901C8F9FD2000577F0 /* mprintf.h */,
-				7B452D911C8F9FD2000577F0 /* multi.h */,
-				7B452D921C8F9FD2000577F0 /* stamp-h2 */,
-				7B452D931C8F9FD2000577F0 /* stdcheaders.h */,
-				7B452D941C8F9FD2000577F0 /* typecheck-gcc.h */,
-			);
-			path = curl;
-			sourceTree = "<group>";
-		};
-		7B452D991C8F9FD2000577F0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				7B452D9A1C8F9FD2000577F0 /* libcurl.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		7B452D9C1C8F9FD2000577F0 /* public */ = {
@@ -193,6 +141,58 @@
 				7B452D9D1C8F9FD2000577F0 /* USFHttpTool.h */,
 			);
 			path = public;
+			sourceTree = "<group>";
+		};
+		7B452DAF1C905868000577F0 /* curl-ios */ = {
+			isa = PBXGroup;
+			children = (
+				7B452DB01C905868000577F0 /* include */,
+				7B452DC61C905868000577F0 /* lib */,
+			);
+			path = "curl-ios";
+			sourceTree = "<group>";
+		};
+		7B452DB01C905868000577F0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7B452DB11C905868000577F0 /* curl */,
+				7B452DC21C905868000577F0 /* Makefile */,
+				7B452DC31C905868000577F0 /* Makefile.am */,
+				7B452DC41C905868000577F0 /* Makefile.in */,
+				7B452DC51C905868000577F0 /* README */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7B452DB11C905868000577F0 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				7B452DB21C905868000577F0 /* curl.h */,
+				7B452DB31C905868000577F0 /* curlbuild.h */,
+				7B452DB41C905868000577F0 /* curlbuild.h.cmake */,
+				7B452DB51C905868000577F0 /* curlbuild.h.dist */,
+				7B452DB61C905868000577F0 /* curlbuild.h.in */,
+				7B452DB71C905868000577F0 /* curlrules.h */,
+				7B452DB81C905868000577F0 /* curlver.h */,
+				7B452DB91C905868000577F0 /* easy.h */,
+				7B452DBA1C905868000577F0 /* Makefile */,
+				7B452DBB1C905868000577F0 /* Makefile.am */,
+				7B452DBC1C905868000577F0 /* Makefile.in */,
+				7B452DBD1C905868000577F0 /* mprintf.h */,
+				7B452DBE1C905868000577F0 /* multi.h */,
+				7B452DBF1C905868000577F0 /* stamp-h2 */,
+				7B452DC01C905868000577F0 /* stdcheaders.h */,
+				7B452DC11C905868000577F0 /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		7B452DC61C905868000577F0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7B452DC71C905868000577F0 /* libcurl.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,18 +253,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B452DA81C8F9FD2000577F0 /* README in Resources */,
-				7B452D9E1C8F9FD2000577F0 /* curlbuild.h.cmake in Resources */,
-				7B452DA21C8F9FD2000577F0 /* Makefile.am in Resources */,
+				7B452DD21C905868000577F0 /* README in Resources */,
+				7B452DC81C905868000577F0 /* curlbuild.h.cmake in Resources */,
+				7B452DCC1C905868000577F0 /* Makefile.am in Resources */,
 				7B452D761C8F9E68000577F0 /* LaunchScreen.storyboard in Resources */,
 				7B452D731C8F9E68000577F0 /* Assets.xcassets in Resources */,
 				7B452D711C8F9E68000577F0 /* Main.storyboard in Resources */,
-				7B452DA71C8F9FD2000577F0 /* Makefile.in in Resources */,
-				7B452D9F1C8F9FD2000577F0 /* curlbuild.h.dist in Resources */,
-				7B452DA31C8F9FD2000577F0 /* Makefile.in in Resources */,
-				7B452DA61C8F9FD2000577F0 /* Makefile.am in Resources */,
-				7B452DA01C8F9FD2000577F0 /* curlbuild.h.in in Resources */,
-				7B452DA41C8F9FD2000577F0 /* stamp-h2 in Resources */,
+				7B452DD11C905868000577F0 /* Makefile.in in Resources */,
+				7B452DC91C905868000577F0 /* curlbuild.h.dist in Resources */,
+				7B452DCD1C905868000577F0 /* Makefile.in in Resources */,
+				7B452DD01C905868000577F0 /* Makefile.am in Resources */,
+				7B452DCA1C905868000577F0 /* curlbuild.h.in in Resources */,
+				7B452DCE1C905868000577F0 /* stamp-h2 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B452DCF1C905868000577F0 /* Makefile in Sources */,
+				7B452DCB1C905868000577F0 /* Makefile in Sources */,
 				7B452DAE1C8FA12A000577F0 /* USFHttpTool.mm in Sources */,
-				7B452DA51C8F9FD2000577F0 /* Makefile in Sources */,
 				7B452D6E1C8F9E68000577F0 /* ViewController.m in Sources */,
 				7B452D6B1C8F9E68000577F0 /* AppDelegate.m in Sources */,
-				7B452DA11C8F9FD2000577F0 /* Makefile in Sources */,
 				7B452D681C8F9E68000577F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +437,7 @@
 				7B452D7C1C8F9E68000577F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

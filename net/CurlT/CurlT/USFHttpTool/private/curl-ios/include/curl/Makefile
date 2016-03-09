@@ -185,23 +185,23 @@ CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/curlbuild.h.in
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 pkgincludedir = $(includedir)/curl
-ACLOCAL = ${SHELL} /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/missing aclocal-1.15
+ACLOCAL = ${SHELL} /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = /usr/bin/ar
 AS = as
-AUTOCONF = ${SHELL} /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/missing autoconf
-AUTOHEADER = ${SHELL} /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/missing autoheader
-AUTOMAKE = ${SHELL} /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/missing automake-1.15
+AUTOCONF = ${SHELL} /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/missing autoconf
+AUTOHEADER = ${SHELL} /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/missing autoheader
+AUTOMAKE = ${SHELL} /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/missing automake-1.15
 AWK = awk
 BLANK_AT_MAKETIME = 
 CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
 CCDEPMODE = depmode=gcc3
-CFLAGS = -arch x86_64 -pipe -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk -Qunused-arguments
+CFLAGS = -arch x86_64 -pipe -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk -fembed-bitcode -Qunused-arguments
 CFLAG_CURL_SYMBOL_HIDING = -fvisibility=hidden
-CONFIGURE_OPTIONS = " '--host=x86_64-apple-darwin' '--with-darwinssl' '--enable-static' '--disable-shared' '--enable-threaded-resolver' '--disable-verbose' '--enable-ipv6' 'host_alias=x86_64-apple-darwin' 'CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang' 'CFLAGS=-arch x86_64 -pipe -Os -gdwarf-2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk' 'LDFLAGS=-arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk' 'CPPFLAGS=-D__IPHONE_OS_VERSION_MIN_REQUIRED=40000'"
+CONFIGURE_OPTIONS = " '--host=x86_64-apple-darwin' '--with-darwinssl' '--enable-static' '--disable-shared' '--enable-threaded-resolver' '--disable-verbose' '--enable-ipv6' 'host_alias=x86_64-apple-darwin' 'CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang' 'CFLAGS=-arch x86_64 -pipe -Os -gdwarf-2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk  -fembed-bitcode' 'LDFLAGS=-arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk' 'CPPFLAGS=-D__IPHONE_OS_VERSION_MIN_REQUIRED=60000'"
 CPP = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -E
-CPPFLAGS = -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000
+CPPFLAGS = -D__IPHONE_OS_VERSION_MIN_REQUIRED=60000
 CPPFLAG_CURL_STATICLIB = -DCURL_STATICLIB
 CURLVERSION = 7.43.0-DEV
 CURL_CA_BUNDLE = 
@@ -264,7 +264,7 @@ LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAINT = #
-MAKEINFO = ${SHELL} /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/missing makeinfo
+MAKEINFO = ${SHELL} /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/missing makeinfo
 MANIFEST_TOOL = :
 MANOPT = -man
 MKDIR_P = ../.././install-sh -c -d
@@ -318,10 +318,10 @@ USE_WINDOWS_SSPI =
 VERSION = -
 VERSIONNUM = 072B00
 ZLIB_LIBS = -lz
-abs_builddir = /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/include/curl
-abs_srcdir = /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/include/curl
-abs_top_builddir = /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl
-abs_top_srcdir = /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl
+abs_builddir = /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/include/curl
+abs_srcdir = /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/include/curl
+abs_top_builddir = /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl
+abs_top_srcdir = /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_DUMPBIN = link -dump
@@ -350,7 +350,7 @@ host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/jeffery/file/code/netcode/other/curl-android-ios-master/curl/install-sh
+install_sh = ${SHELL} /Users/jeffery/file/code/gitsrc/usf-dist/curl/construct-ios/curl/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 libext = a
