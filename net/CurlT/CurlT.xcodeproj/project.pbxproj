@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B452D681C8F9E68000577F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D671C8F9E68000577F0 /* main.m */; };
+		7B452D6B1C8F9E68000577F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D6A1C8F9E68000577F0 /* AppDelegate.m */; };
+		7B452D6E1C8F9E68000577F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D6D1C8F9E68000577F0 /* ViewController.m */; };
+		7B452D711C8F9E68000577F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D6F1C8F9E68000577F0 /* Main.storyboard */; };
+		7B452D731C8F9E68000577F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D721C8F9E68000577F0 /* Assets.xcassets */; };
+		7B452D761C8F9E68000577F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D741C8F9E68000577F0 /* LaunchScreen.storyboard */; };
+		7B452D9E1C8F9FD2000577F0 /* curlbuild.h.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D871C8F9FD2000577F0 /* curlbuild.h.cmake */; };
+		7B452D9F1C8F9FD2000577F0 /* curlbuild.h.dist in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D881C8F9FD2000577F0 /* curlbuild.h.dist */; };
+		7B452DA01C8F9FD2000577F0 /* curlbuild.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D891C8F9FD2000577F0 /* curlbuild.h.in */; };
+		7B452DA11C8F9FD2000577F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D8D1C8F9FD2000577F0 /* Makefile */; };
+		7B452DA21C8F9FD2000577F0 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D8E1C8F9FD2000577F0 /* Makefile.am */; };
+		7B452DA31C8F9FD2000577F0 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D8F1C8F9FD2000577F0 /* Makefile.in */; };
+		7B452DA41C8F9FD2000577F0 /* stamp-h2 in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D921C8F9FD2000577F0 /* stamp-h2 */; };
+		7B452DA51C8F9FD2000577F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 7B452D951C8F9FD2000577F0 /* Makefile */; };
+		7B452DA61C8F9FD2000577F0 /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D961C8F9FD2000577F0 /* Makefile.am */; };
+		7B452DA71C8F9FD2000577F0 /* Makefile.in in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D971C8F9FD2000577F0 /* Makefile.in */; };
+		7B452DA81C8F9FD2000577F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7B452D981C8F9FD2000577F0 /* README */; };
+		7B452DA91C8F9FD2000577F0 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B452D9A1C8F9FD2000577F0 /* libcurl.a */; };
+		7B452DAE1C8FA12A000577F0 /* USFHttpTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B452DAD1C8FA12A000577F0 /* USFHttpTool.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B452D631C8F9E68000577F0 /* CurlT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurlT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B452D671C8F9E68000577F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B452D691C8F9E68000577F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B452D6A1C8F9E68000577F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B452D6C1C8F9E68000577F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B452D6D1C8F9E68000577F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B452D701C8F9E68000577F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B452D721C8F9E68000577F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B452D751C8F9E68000577F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B452D771C8F9E68000577F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B452D851C8F9FD2000577F0 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		7B452D861C8F9FD2000577F0 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		7B452D871C8F9FD2000577F0 /* curlbuild.h.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.cmake; sourceTree = "<group>"; };
+		7B452D881C8F9FD2000577F0 /* curlbuild.h.dist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.dist; sourceTree = "<group>"; };
+		7B452D891C8F9FD2000577F0 /* curlbuild.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = curlbuild.h.in; sourceTree = "<group>"; };
+		7B452D8A1C8F9FD2000577F0 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		7B452D8B1C8F9FD2000577F0 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		7B452D8C1C8F9FD2000577F0 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		7B452D8D1C8F9FD2000577F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		7B452D8E1C8F9FD2000577F0 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7B452D8F1C8F9FD2000577F0 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7B452D901C8F9FD2000577F0 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		7B452D911C8F9FD2000577F0 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		7B452D921C8F9FD2000577F0 /* stamp-h2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stamp-h2"; sourceTree = "<group>"; };
+		7B452D931C8F9FD2000577F0 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		7B452D941C8F9FD2000577F0 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		7B452D951C8F9FD2000577F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		7B452D961C8F9FD2000577F0 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		7B452D971C8F9FD2000577F0 /* Makefile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		7B452D981C8F9FD2000577F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		7B452D9A1C8F9FD2000577F0 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		7B452D9D1C8F9FD2000577F0 /* USFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USFHttpTool.h; sourceTree = "<group>"; };
+		7B452DAD1C8FA12A000577F0 /* USFHttpTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = USFHttpTool.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B452D601C8F9E68000577F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B452DA91C8F9FD2000577F0 /* libcurl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B452D5A1C8F9E68000577F0 = {
+			isa = PBXGroup;
+			children = (
+				7B452D651C8F9E68000577F0 /* CurlT */,
+				7B452D641C8F9E68000577F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B452D641C8F9E68000577F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D631C8F9E68000577F0 /* CurlT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B452D651C8F9E68000577F0 /* CurlT */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D691C8F9E68000577F0 /* AppDelegate.h */,
+				7B452D6A1C8F9E68000577F0 /* AppDelegate.m */,
+				7B452D6C1C8F9E68000577F0 /* ViewController.h */,
+				7B452D6D1C8F9E68000577F0 /* ViewController.m */,
+				7B452D6F1C8F9E68000577F0 /* Main.storyboard */,
+				7B452D721C8F9E68000577F0 /* Assets.xcassets */,
+				7B452D741C8F9E68000577F0 /* LaunchScreen.storyboard */,
+				7B452D771C8F9E68000577F0 /* Info.plist */,
+				7B452D801C8F9FD2000577F0 /* USFHttpTool */,
+				7B452D661C8F9E68000577F0 /* Supporting Files */,
+			);
+			path = CurlT;
+			sourceTree = "<group>";
+		};
+		7B452D661C8F9E68000577F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D671C8F9E68000577F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B452D801C8F9FD2000577F0 /* USFHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D811C8F9FD2000577F0 /* private */,
+				7B452D9C1C8F9FD2000577F0 /* public */,
+			);
+			path = USFHttpTool;
+			sourceTree = "<group>";
+		};
+		7B452D811C8F9FD2000577F0 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				7B452DAD1C8FA12A000577F0 /* USFHttpTool.mm */,
+				7B452D821C8F9FD2000577F0 /* curl-ios */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		7B452D821C8F9FD2000577F0 /* curl-ios */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D831C8F9FD2000577F0 /* include */,
+				7B452D991C8F9FD2000577F0 /* lib */,
+			);
+			path = "curl-ios";
+			sourceTree = "<group>";
+		};
+		7B452D831C8F9FD2000577F0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D841C8F9FD2000577F0 /* curl */,
+				7B452D951C8F9FD2000577F0 /* Makefile */,
+				7B452D961C8F9FD2000577F0 /* Makefile.am */,
+				7B452D971C8F9FD2000577F0 /* Makefile.in */,
+				7B452D981C8F9FD2000577F0 /* README */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7B452D841C8F9FD2000577F0 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D851C8F9FD2000577F0 /* curl.h */,
+				7B452D861C8F9FD2000577F0 /* curlbuild.h */,
+				7B452D871C8F9FD2000577F0 /* curlbuild.h.cmake */,
+				7B452D881C8F9FD2000577F0 /* curlbuild.h.dist */,
+				7B452D891C8F9FD2000577F0 /* curlbuild.h.in */,
+				7B452D8A1C8F9FD2000577F0 /* curlrules.h */,
+				7B452D8B1C8F9FD2000577F0 /* curlver.h */,
+				7B452D8C1C8F9FD2000577F0 /* easy.h */,
+				7B452D8D1C8F9FD2000577F0 /* Makefile */,
+				7B452D8E1C8F9FD2000577F0 /* Makefile.am */,
+				7B452D8F1C8F9FD2000577F0 /* Makefile.in */,
+				7B452D901C8F9FD2000577F0 /* mprintf.h */,
+				7B452D911C8F9FD2000577F0 /* multi.h */,
+				7B452D921C8F9FD2000577F0 /* stamp-h2 */,
+				7B452D931C8F9FD2000577F0 /* stdcheaders.h */,
+				7B452D941C8F9FD2000577F0 /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		7B452D991C8F9FD2000577F0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D9A1C8F9FD2000577F0 /* libcurl.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7B452D9C1C8F9FD2000577F0 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				7B452D9D1C8F9FD2000577F0 /* USFHttpTool.h */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B452D621C8F9E68000577F0 /* CurlT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B452D7A1C8F9E68000577F0 /* Build configuration list for PBXNativeTarget "CurlT" */;
+			buildPhases = (
+				7B452D5F1C8F9E68000577F0 /* Sources */,
+				7B452D601C8F9E68000577F0 /* Frameworks */,
+				7B452D611C8F9E68000577F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurlT;
+			productName = CurlT;
+			productReference = 7B452D631C8F9E68000577F0 /* CurlT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B452D5B1C8F9E68000577F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jeffery;
+				TargetAttributes = {
+					7B452D621C8F9E68000577F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7P35529BL3;
+					};
+				};
+			};
+			buildConfigurationList = 7B452D5E1C8F9E68000577F0 /* Build configuration list for PBXProject "CurlT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B452D5A1C8F9E68000577F0;
+			productRefGroup = 7B452D641C8F9E68000577F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B452D621C8F9E68000577F0 /* CurlT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B452D611C8F9E68000577F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B452DA81C8F9FD2000577F0 /* README in Resources */,
+				7B452D9E1C8F9FD2000577F0 /* curlbuild.h.cmake in Resources */,
+				7B452DA21C8F9FD2000577F0 /* Makefile.am in Resources */,
+				7B452D761C8F9E68000577F0 /* LaunchScreen.storyboard in Resources */,
+				7B452D731C8F9E68000577F0 /* Assets.xcassets in Resources */,
+				7B452D711C8F9E68000577F0 /* Main.storyboard in Resources */,
+				7B452DA71C8F9FD2000577F0 /* Makefile.in in Resources */,
+				7B452D9F1C8F9FD2000577F0 /* curlbuild.h.dist in Resources */,
+				7B452DA31C8F9FD2000577F0 /* Makefile.in in Resources */,
+				7B452DA61C8F9FD2000577F0 /* Makefile.am in Resources */,
+				7B452DA01C8F9FD2000577F0 /* curlbuild.h.in in Resources */,
+				7B452DA41C8F9FD2000577F0 /* stamp-h2 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B452D5F1C8F9E68000577F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B452DAE1C8FA12A000577F0 /* USFHttpTool.mm in Sources */,
+				7B452DA51C8F9FD2000577F0 /* Makefile in Sources */,
+				7B452D6E1C8F9E68000577F0 /* ViewController.m in Sources */,
+				7B452D6B1C8F9E68000577F0 /* AppDelegate.m in Sources */,
+				7B452DA11C8F9FD2000577F0 /* Makefile in Sources */,
+				7B452D681C8F9E68000577F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B452D6F1C8F9E68000577F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B452D701C8F9E68000577F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B452D741C8F9E68000577F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B452D751C8F9E68000577F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B452D781C8F9E68000577F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B452D791C8F9E68000577F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B452D7B1C8F9E68000577F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurlT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CurlT/USFHttpTool/private/curl-ios/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtzijin.CurlT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B452D7C1C8F9E68000577F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurlT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CurlT/USFHttpTool/private/curl-ios/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtzijin.CurlT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B452D5E1C8F9E68000577F0 /* Build configuration list for PBXProject "CurlT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B452D781C8F9E68000577F0 /* Debug */,
+				7B452D791C8F9E68000577F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B452D7A1C8F9E68000577F0 /* Build configuration list for PBXNativeTarget "CurlT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B452D7B1C8F9E68000577F0 /* Debug */,
+				7B452D7C1C8F9E68000577F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B452D5B1C8F9E68000577F0 /* Project object */;
+}
