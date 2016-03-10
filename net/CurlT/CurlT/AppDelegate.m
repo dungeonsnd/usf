@@ -19,6 +19,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+        
+        NSString *url =@"https://raw.githubusercontent.com/curl/curl/master/docs/examples/getinmemory.c";
+        
+//        NSString *url =@"sohu.com";
+        
+        NSMutableString *result;
+        NSMutableString *out_errstr;
+        
+        USFHttpTool *ustHttpTool =[[USFHttpTool alloc]init];
+        NSInteger res =[ustHttpTool HttpGet:url result:&result out_errstr:&out_errstr];
+        NSLog(@"res=%ld",(long)res);
+        
+        NSLog(@"result=%lu",(unsigned long)[result length]);
+        NSLog(@"out_errstr=%@",out_errstr);
+    
+    });
+    
     return YES;
 }
 

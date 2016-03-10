@@ -10,4 +10,7 @@
 
 @interface USFHttpTool : NSObject
 
+
+- (NSInteger) HttpGet:(NSString *)nsurl result:(NSString **)nsresult out_errstr:(NSString **)nsout_errstr;
+
 @end
